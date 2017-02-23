@@ -1,0 +1,262 @@
+  * {
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  font-family: Verdana;
+
+}
+body {
+  font-size: 0.90em;
+  background-image: url(../Images/SEA.jpg);
+  background-color: #b4dbf7;
+
+}
+/* buttons */
+#mainbtn {
+  background-color: white;
+  border: 2px white;
+  text-align: center;
+  display: inline;
+  margin:0 2.5% 0;
+  border-radius: 8px;
+  padding: 10px;
+  height:37px;
+}
+#mainbtn > a, #mainbtn > form {
+  color: black;
+}
+center > form {
+  height:39px;
+  display:inline;
+}
+center > form > #mainbtn > button {
+  background-color: Transparent;
+  width:7,5%;
+  border-radius:8px;
+  font-size:1em;
+}
+#checkbox {
+	position: fixed;
+	right: 12.5%;
+	top: 10%;
+}
+#checkboxmobile {
+	position: fixed;
+	right: 12.5%;
+	top: 17%;
+	padding: 5%;
+}
+
+/* main shit */
+#placeholdername {
+  background-color: White;
+  width: 80%;
+  border: 2px #757575;	
+	display: block;
+  margin: 5% auto 5% auto;
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+#placeholder2 {
+  background-color: White;
+  width: 80%;
+  border: 2px #757575;	
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align:center; 
+  margin: auto auto 5% auto;
+}
+
+#placeholder3 {
+  background-color: White;
+  width: 80%;
+  border: 2px #757575;	
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align:left; 
+  margin: auto auto 5% auto;
+}
+
+#calculatordiv {
+  background-color: White;
+  width: 100%;
+  height:70%;
+  border: 2px #757575;	
+  color: black;
+  padding: 100%;
+  text-align:center; 
+  margin-top: 5%; 
+}
+
+#placeholdername > h2 {
+  text-align:center;
+  margin:auto;
+  padding:inherit;
+}
+
+#placeholder4 {
+  background-color: White;
+  width: 95%;
+  border: 2px #757575;	
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  float: center;
+}
+/* div voor inloggen */
+#Inlog {
+  background-color: White;
+  min-width:30px;
+  border: 2px #757575;	
+  color: black;
+  border-radius: 8px;
+  padding: 10px;
+	width:80%;
+	height:80%;
+  display:table;
+  margin:auto;
+}
+#regform {
+  display:table;
+  margin:auto;
+}
+#regform button {
+  display:table;
+  margin:auto;
+}
+input {
+  margin-bottom:20px;
+  height:25px;
+}
+/* Header */  
+header {
+    width:100%;
+    margin:0px;
+    padding:0px;
+    height:50px;
+    background-color: #303030;
+    position: fixed;
+}
+
+header nav {
+  color:white;
+  text-align:center;
+  font-size:1.5em;
+}
+#headerdiv {
+   width:100%;
+   margin:0px;
+   padding:0px;
+   height:60px;
+}
+#plebs {
+  color: Red;
+}
+
+/* Image to the left of the header */
+#headerlogo {
+  height:100%;
+  width:50px;
+  float:left;
+	position:relative;
+}
+#headerlogo img {
+  width:100%;
+  height:100%;
+}
+
+/* Dropdown menu on hover/tap */
+#dropdownwrapper {
+  position:relative;
+  display:inline-block;
+  float:right;
+}
+#menubox {
+  width:50px;
+  height:100%;
+  cursor:pointer;
+	position:relative;
+}
+#menubox img {
+  width:100%;
+  height:100%;
+}
+
+#dropdownmenu {
+  display:none;
+  position:absolute;
+  right:0;
+  top:50px;
+  background-color:white;
+  box-shadow: 0px 8px 16px 0px black;
+  min-width:120px;
+}
+#dropdownmenu a {
+  display:block;
+  color:black;
+  padding:12px;
+}
+#dropdownmenu a:hover {
+  background-color:#e6e6e6;
+}
+#menubox:hover #dropdownmenu, #menubox:active #dropdownmenu {
+  display:block;
+}
+
+/* Calculator */ 
+#calculatordiv {
+	height:150%;
+	width: 80%;
+	display:block;
+	border-radius:20px;
+	padding: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#calcform {
+	width: 90%; 
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#calculator p {
+  font-weight:bold;
+}
+#inkomsten {
+  width:90%;
+  float: center;
+}
+
+/* tips */
+#tipsmain1 {
+  width: 80%;
+	display: block;
+  margin: 5% auto 5% auto;
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+	height:100%;
+}
+#tips1 {
+	float: left;
+	width: 100%; 
+	text-align: center;
+}
+#1, #2, #3{
+	display:block;
+}
+
+#input {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin:11px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
